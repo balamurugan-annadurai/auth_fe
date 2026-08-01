@@ -16,7 +16,7 @@ import { ToastContainer } from "react-toastify";
 
 const App = () => {
 
-  const status = localStorage.getItem("isLoggedIn"); 
+  const status = localStorage.getItem("isLoggedIn");
 
   const [isLoggedIn, setIsLoggedIn] = useState(status === "true");
 
